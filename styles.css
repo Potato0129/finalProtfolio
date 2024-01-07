@@ -95,7 +95,7 @@ ul{
   width: 45vw;
   height: 80vh;
   background-color: rgba(0, 0, 0, 0.3);
-  overflow: scroll;
+  overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
