@@ -96,6 +96,11 @@ ul{
   height: 80vh;
   background-color: rgba(0, 0, 0, 0.3);
   overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+ul::-webkit-scrollbar {
+  display: none;
 }
 ul p {
   padding: 24px;
